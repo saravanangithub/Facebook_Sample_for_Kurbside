@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kurbside</string>
+    <string name="shared_pref_key">ZbynJZdCfmwa2PtloAPmTpwuQIMhIRsNeIiq2E1E</string>
+    <string name="Parse_app_id">NiEoGTRWSlqjGL6KEE2Xws6ipUFkefewOOzJopjY</string>
+    <string name="Parse_client_id">YLM5vbU2jcbfXV4wjhOoAF7KM1Rj6hsVgzBoKRzb</string>
+    <string name="Facebook_app_id">331330950379082</string>
+    <!--
+	<string name="Parse_app_id">ZbynJZdCfmwa2PtloAPmTpwuQIMhIRsNeIiq2E1E</string>
+	<string name="Parse_client_id">vlajUmmdLsjLbzlEMCaBPI5WmrxJSjLW0oVcF8we</string>
+    -->
+
+    <string name="empty" />
+    <string name="FindListing_distance">%1$s Mile(s) Away</string>
+    <string name="empty_search_result">We found no matching items. Tap "List an Item" to add a new item.</string>
+    <string name="list_item">List an Item</string>
+    <string name="empty_my_items">You have not listed any items yet. Tap "List an Item" below to get started.</string>
+    <string name="empty_my_claims">You have not claimed any items yet. Tap Browse to start looking around.</string>
+    <string name="list_item_from_my_items">List an Item</string>
+    <string name="browse_from_my_claims">Browse</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Login_Error">Login Error, please try again later</string>
+    <string name="Error">error!</string>
+    <string name="Phone_And_Password">Phone And Password</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Login_With">Login with...</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="SignUp_With">Signup with...</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Full_Name">Full Name</string>
+    <string name="No_Phone_Number">No Phone Number</string>
+    <string name="A_Phone_Number_Required">A phone number is required to sign up via phone and password.</string>
+    <string name="OK">OK</string>
+    <string name="Password_Not_Match">Passwords Does Not Match</string>
+    <!-- <string name="Enter_Phone_Number">Enter your Phone number continue.</string> -->
+    <string name="Enter_Full_Name">Enter your full name to continue.</string>
+    <string name="Enter_Password">Enter a password to continue.</string>
+    <string name="Confirm_Password_Error">Confirm your password to continue.</string>
+    <string name="Signing_Up">Signing Up...</string>
+    <string name="SignUp_New_Account">Sign Up for New Account</string>
+    <string name="User_Already_Exists_Error">User already exists with this phone number.</string>
+    <string name="Enter_Phone_Number">Enter your phone number to log in.</string>
+    <string name="Enter_Valid_Phone_Number">Enter a valid phone number.</string>
+    <string name="Logging_In">Logging In...</string>
+    <string name="Invalid_Credentials_Error">Invalid phone or password.</string>
+    <string name="Four_Digit_PIN">4 Digit PIN</string>
+    <string name="Confirm_Four_Digit_PIN">Confirm Four Digit PIN</string>
+    <string name="PIN_Too_Short_Error">PIN must be at least 4 digits.</string>
+    <string name="Enter_PIN">Enter PIN to continue.</string>
+    <string name="Confirm_PIN_Error">Confirm PIN to continue.</string>
+    <string name="message_thread_heading">Messages from</string>
+    <string name="PIN_Not_Match_Error">PINs do not match.</string>
+    <string name="Account_Needed">Account Needed</string>
+    <string name="Log_In_Continue">Log in to use this feature.</string>
+    <string name="Log_In_Sign_Up">Log In / Sign Up</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Initializing">Please wait &#8230;</string>
+    <string name="Login_Failed">Connection failure, please try again.</string>
+    <string name="Connection_Failed">Connection Failed.Check Your Data Connection</string>
+    <string name="Posting_To_Facebook">Posting to Facebook...</string>
+    <string name="Facebook_Error">Facebook Error. Please try again in a few minutes.</string>
+    <string name="Posting_To_Facebook_Successful">Successfully posted listing to Facebook!</string>
+    <string name="Posting_To_Facebook_Failed">Posting to Facebook failed. Please try again later.</string>
+    <string name="User_Logged_In_Through_Facebook">User logged in through Facebook!</string>
+    <string name="See_Messages">See Messages</string>
+    <string name="Post_On_Facebook">Post to Facebook</string>
+    <string name="Confirm_To_UnClaim">Are you sure you want to unclaim this item.</string>
+    <string name="Unclaiming_Item">Unclaiming Item...</string>
+    <string name="Unclaim_Successful">Successfully unclaimed item!</string>
+    <string name="Unclaim_Error">Unclaim error. Please try again later.</string>
+    <string name="Confirm_Unclaim">Confirm Unclaim Item</string>
+    <string name="Claim_Item">Claim Item</string>
+    <string name="Are_You_Sure">Are you sure?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Version">Version</string>
+    <string name="App_Info">App Info</string>
+    <string name="Version_Info">Version: %1$s\nBuild: %2$s</string>
+    <string name="Not_Found">Not Found</string>
+    <string name="Send_Message">Send Message</string>
+    <string name="Get_Message_Thread_Error_Msg">Internal Error. Restart the application.</string>
+    <string name="Get_Parse_User_Error_Message">Server Error. Try again later.</string>
+    <string name="Unread_Messages">%1$s unread messages</string>
+    <string name="Server_Error">Server Error. Please try again later.</string>
+    <string name="Fetching_Information">Fetching information...</string>
+    <string name="No_Zip_Found">No location found with the given postal code.</string>
+    <string name="Cannot_Get_Location">Cannot get you location at this time. Enter your location manually.</string>
+    <string name="Cannot_Get_Location_To_Search_Item">Cannot get you location at this time. Try using ZipCode or Item No. </string>
+    <string name="NearbySearch_Cannot_Get_Location">Cannot fetch your current location. Nearby searches not available.</string>
+    <string name="Device_Service_Unavailable">Device Service Unavailable</string>
+    <string name="Device_Service_Unavailable_Reboot_Needed">Location service is currently unavailable on this device. Make sure location services is turned on, reboot the device and try again.</string>
+    <string name="Reboot_Required">Reboot Required</string>
+    <string name="Reboot_Required_Message">There is still a problem with getting locations with this device. Please reboot this device before trying again.</string>
+    <string name="Location_Settings">Location Settings</string>
+    <string name="Reboot">Reboot</string>
+    <string name="Not_Able_To_Delete_Item"> "Sorry, Cannot delete listing at this moment, please try again later"</string>
+    <string name="Facebook_Login_Error">Sorry..Facebook Login Error</string>
+    <string name="Poting_To_Facebook">Poting to Facebook</string>
+    <string name="No_Messages">No Messages</string>
+    <string name="Please_wait">Please wait...</string>
+    <string name="Confirm_To_Delete">Do you really want to delete this item.</string>
+    <string name="Confirm_To_Report">Do you really want to report this item.</string>
+    <string name="Please_Confirm">Please confirm</string>
+    <string name="My_Items">My Items</string>
+    <string name="My_Claims">My Claims</string>
+    <string name="Messages">Messages</string>
+    <string name="Warning">Warning</string>
+    <string name="Warning_For_Leaving_Page">Leaving this page will lose the current listing information</string>
+    <string name="Leave_Page">Leave Page</string>
+    <string name="Enter_Item_Name">Please enter item name</string>
+    <string name="Add_Picture">Please add at least one picture</string>
+    <string name="Enter_Location">Please enter valid location</string>
+    <string name="Submitting">Submitting...</string>
+    <string name="Listing_Error_Check_Network">Listing Error. Check your network connectivity and try again.</string>
+    <string name="Listing_Success">Listing Success</string>
+    <string name="Reported">Reported</string>
+    <string name="Congratulations_On_Claiming_Item">Congratulations on claiming the item. Now send a message to arrange to pickup your item.</string>
+    <string name="Confirm_To_Claim">Are you sure you want to take this item.</string>
+    <string name="Already_Claimed">Sorry, this item has already been claimed</string>
+    <string name="Error_Claim_Item">Error trying to claim item, try again later</string>
+    <string name="Item_Claimed">Item Claimed</string>
+    <string name="Facebook_Post_Caption">Kurbside.com</string>
+    <string name="Facebook_Post_Message">I just posted a free item using Kurbside.</string>
+    <string name="Facebook_Post_Description">Kurbside is an app that helps you easily kick things to the kurb.  Use it to list items and find items in your neighborhood.  Download Kurbside now!</string>
+    <string name="Facebook_Post_Link">http://www.kurbside.com/?cb=</string>
+    <string name="Report_Failed">Reporting Listing Failed</string>
+    <string name="Refresh_Data">Refresh Data</string>
+    <string name="Add_Listing">Add Listing</string>
+    <string name="Find">Find</string>
+    <string name="Cannot_Claim_Item">Cannot claim item since item reported</string>
+    <string name="Cannot_Send_Message">Cannot send message since item reported</string>
+    <string name="UnClaimed">UnClaimed</string>
+    <string name="location_services_not_enabled">Location Services not Enabled</string>
+    <string name="goto_location_settings">Go To Location Settings</string>
+    <string name="Change_Zip">Change Zip</string>
+    <string name="Change_Distance">Change Distance</string>
+    <string name="Enter_Zip_Code">Enter Zip Code</string>
+    <string name="Add_Picture2">Add Picture</string>
+    <string name="Delete">Delete</string>
+    <string name="Report">Report</string>
+    <string name="Show_Item">Show Item</string>
+    <string name="Remove">Remove</string>
+    <string name="Unclaim">Unclaim</string>
+    <string name="Sent_Message"> has sent you a message </string>
+    <string name="Claimed_Item"> claimed the item </string>
+    <string name="UnClaimed_Item"> unclaimed the item </string>
+    <string name="Distance_Not_Available">Distance Not Available</string>
+    <string name="Claimed_By"> Claimed By</string>
+    <string name="Price">Price :</string>
+    <string name="Free">Free</string>
+    <string name="Usd">$ USD</string>
+    <string name="Enter_Amount">Enter Amount</string>
+    <string name="Post">Post to Facebook</string>
+    <string name="Message_To_Post">Add an optional message to the post</string>
+    <string name="Type_Your_Message_Here">Enter message here</string>
+    <string name="Login_With_Facebook">Log in with Facebook</string>
+    <string name="Login_With_Phoneno">Log in with Phone Number</string>
+    <string name="Signup_With_Phoneno">Signup with Phone #</string>
+    <string-array name="distance_array">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </string-array>
+    <string-array name="find_array">
+        <item>Nearby</item>
+        <item>Item #</item>
+        <item>Zip</item>
+    </string-array>
+    <string-array name="login_array">
+        <item>@string/Facebook</item>
+        <item>@string/Phone_And_Password</item>
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="browse_items">Browse Items</string>
+    <string name="post_item_to_facebook">Post item</string>
+    <string name="messages">Messages</string>
+    <string name="post_to_facebook">Post to Facebook</string>
+
+</resources>

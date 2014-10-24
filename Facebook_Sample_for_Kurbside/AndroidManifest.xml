@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kurbside.android"
+    android:versionCode="239"
+    android:versionName="1.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.kurbside.android.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Kurbside" >
+        <activity
+            android:name="com.kurbside.android.activities.SplashLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kurbside.android.activities.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Kurbside.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.kurbside.android.activities.SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Kurbside.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.kurbside.android.activities.ListItemActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:label="List Item"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.kurbside.android.activities.MessageThreadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Kurbside" />
+        <activity
+            android:name="com.kurbside.android.activities.sendmessage.MessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Kurbside"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.kurbside.android.activities.sendmessage.JustClaimedMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Kurbside"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.kurbside.android.activities.SelectAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Kurbside" />
+        <activity
+            android:name="com.kurbside.android.activities.SearchActivity"
+            android:icon="@drawable/empty"
+            android:label="@string/empty"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Kurbside"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.kurbside.android.activities.FindListingDetailsActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kurbside.android.activities.SuccessActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kurbside.android.activities.MyListingDetailsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kurbside.android.activities.MyClaimsDetailsActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kurbside.android.activities.ViewPhotoActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityThemeNoActionBar" />
+        <activity
+            android:name="com.kurbside.android.activities.EnterLocationActivity"
+            android:parentActivityName="com.kurbside.android.activities.ListItemActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kurbside.android.activities.ListItemActivity" >
+            </meta-data>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/Facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kurbside.android.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="2b775441245209ccec67ca8c8271d0a89b758842" />
+        
+        <receiver android:name="com.kurbside.android.receivers.MessageReceiver" >
+            <intent-filter android:priority="1">
+                <action android:name="com.kurbside.android.UPDATE_MESSAGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.kurbside.android.receivers.PushNotificationReceiver" >
+            <intent-filter>
+                <action android:name="com.kurbside.android.PUSH_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="0fe6b9d509a05f26a7b8fb287c551f9b0141ed24" />
+    </application>         
+
+</manifest>

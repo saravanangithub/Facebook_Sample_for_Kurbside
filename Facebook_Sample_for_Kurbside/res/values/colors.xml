@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="grey">#9c9c9c</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="messaging_grey">#309c9c9c</color>
+    <color name="android_color_blue_dark">#0099CC</color>
+    <color name="android_color_blue_light">#33B5E5</color>
+    <color name="android_color_purple_dark">#0099CC</color>
+    <color name="android_color_purple_light">#AA66CC</color>
+    <color name="android_color_orange_light">#FFBB33</color>
+    <color name="android_color_orange_dark">#FF8800</color>
+    <color name="android_color_red_light">#FF4444</color>
+    <color name="android_color_red_dark">#CC0000</color>
+    <color name="android_color_green_light">#73c533</color>
+    <color name="android_color_green_dark">#66b02e</color>
+    <color name="facebook_blue_light">#5979ae</color>
+    <color name="facebook_blue_dark">#415d99</color>
+    <color name="bg_holo_light">#e5e5e5</color>
+    <color name="bg_holo_dark">#ff000000</color>
+    <color name="white_transparent">#75ffffff</color>
+    <color name="bg_kurbside_grey">#333333</color>
+    
+</resources>
